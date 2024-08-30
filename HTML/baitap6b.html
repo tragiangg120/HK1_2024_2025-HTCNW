@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baitap6b</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            /* margin:0 auto; */
+            
+        }
+        table{
+            /* border: 1px solid gray; */
+            margin:left;
+
+        }
+        div{
+            margin-top: 20px;
+            width: 700px;
+            height:auto;
+            border: 1px solid rgb(15, 59, 255);
+            margin: 0 auto;
+        }
+        /* tr, td,th{
+            /* border:1px solid black; */
+            
+            
+        /* } */ 
+        h2{
+            margin-top:0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Contact Us</h2>
+        <fieldset > 
+            <legend align="left" > Your message</legend>
+                <table >
+                    <tr>
+                       <td><label>To</label></td>
+                       <td color="gray"><input type="Example Cafe"></td>
+                    </tr>
+    
+                    <tr>
+                        <td><label>Your email</label></td>
+                        <td><input type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Message</label></td>
+                        <td>
+                            <textarea rows=7 cols=39 name=comments>
+                            </textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Attach File</label></td>
+                        <td id="a2"> <br>
+                            
+                            <input type="file" id="files" name="files" multiple
+                            accept="image/png, image/jpeg"><br><br>
+                        </td>
+                    </tr>
+
+                </table>
+        
+        </fieldset>
+        
+        <fieldset >
+            <legend  align="left"> How you found us</legend>
+                <table>
+                    <tr>
+                        <td> <label>How did you hear of us </label></td>
+                        <td>
+                            <select name="How did you hear of us">
+                                <option value="Google" checked>Google&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Newsletter</label></td>
+                        <td>
+                            <input type="checkbox" name="fff" value="fff" checked>Ensure this box is checked if you would like to receive email updates <br>
+                        </td>
+                    </tr>
+                </table>
+            
+        </fieldset>
+            <table>
+                <tr>
+                    <input type="submit" value="Send message"> 
+                </tr>
+            </table>
+            <br>
+    </div>
+</body>
+</html>
